@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 1(product, buy, check)", "Sigma\task 1(product, buy, check).csproj", "{199625EB-F870-486A-928C-35F49826FC79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task 1(product, buy, check)", "Sigma\task 1(product, buy, check).csproj", "{199625EB-F870-486A-928C-35F49826FC79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 2_1 (shop + meat, dairy products, storage)", "task 2\task 2_1 (shop + meat, dairy products, storage).csproj", "{B765FE66-0F53-4E96-9355-07A66CAFDBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task 2_1 (shop + meat, dairy products, storage)", "task 2\task 2_1 (shop + meat, dairy products, storage).csproj", "{B765FE66-0F53-4E96-9355-07A66CAFDBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 2_2 matrix", "task 2_2 matrix\task 2_2 matrix.csproj", "{1DB0150C-FF84-436E-BBB0-059754305540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task 2_2 matrix", "task 2_2 matrix\task 2_2 matrix.csproj", "{1DB0150C-FF84-436E-BBB0-059754305540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 3 vector", "task 3\task 3 vector.csproj", "{450F7997-77FF-4212-A159-AC120F84C5A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task 3 vector", "task 3\task 3 vector.csproj", "{450F7997-77FF-4212-A159-AC120F84C5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 4 vector plus sort", "task 4 vector plus sort\task 4 vector plus sort.csproj", "{990B8701-5F40-45F6-A73D-91FA9BBE4119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task 4 vector plus sort", "task 4 vector plus sort\task 4 vector plus sort.csproj", "{990B8701-5F40-45F6-A73D-91FA9BBE4119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5 (heap sort + sort from file)", "Task 5 (heap sort + sort from file)\Task 5 (heap sort + sort from file).csproj", "{70E2420C-A179-4441-A0E9-5F4E5C195FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{990B8701-5F40-45F6-A73D-91FA9BBE4119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990B8701-5F40-45F6-A73D-91FA9BBE4119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990B8701-5F40-45F6-A73D-91FA9BBE4119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E2420C-A179-4441-A0E9-5F4E5C195FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E2420C-A179-4441-A0E9-5F4E5C195FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E2420C-A179-4441-A0E9-5F4E5C195FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E2420C-A179-4441-A0E9-5F4E5C195FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
