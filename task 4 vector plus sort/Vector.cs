@@ -253,7 +253,7 @@ namespace Vector
             int pivot;
             int i = low;
             int j = high;
-
+// Краще switch і в enum значення з великої літери
             if (p == Pivot.first)
                 pivot = arr[low];
             else if (p == Pivot.last)
