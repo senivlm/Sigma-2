@@ -3,7 +3,7 @@
 namespace Vector
 {
     class Program
-    {
+    {//Немає виклику для задачі сортування злиттям
         static void Main(string[] args)
         {
 
