@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 
 namespace Vector
-{
+{// не знайшла варіанту для сортування великого файла
     class Vector
     {
         private int[] arr;
