@@ -353,10 +353,14 @@ namespace Vector
         }
 
 
-        public void ReadFromFile(string fileName)
+        public string ReadFromFile(string fileName)
         {
-            StreamReader reader = new StreamReader(fileName);
-            string str = reader.ReadLine();
+            string line = null;
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                line = reader.ReadLine();
+            }
+            return line;
         }
 
         public override string ToString()

@@ -14,10 +14,20 @@ namespace Vector
 
             try
             {
-                Console.WriteLine(vector);
-                vector.HeapSort();
-                Console.WriteLine(vector);
+                //Console.WriteLine(vector);
+                //vector.HeapSort();
+                //Console.WriteLine(vector);
+                using (StreamReader reader = new StreamReader("matrix.txt"))
+                {
+                    Matrix matrix = new Matrix();
+                    matrix.ReadMatrixFromFile(reader);
+                    matrix.Print();
+                }
 
+                string str1 = "Hello world. I am Dima";
+                int index = str1.LastIndexOf(' ');
+
+                Console.WriteLine(str1);
 
             }
             catch (Exception ex)
