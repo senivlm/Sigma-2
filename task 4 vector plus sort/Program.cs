@@ -3,7 +3,7 @@
 namespace Vector
 {
     class Program
-    {
+    {// Ваш номер 12.
         static void Main(string[] args)
         {
             //Vector vec1 = new Vector(25);
