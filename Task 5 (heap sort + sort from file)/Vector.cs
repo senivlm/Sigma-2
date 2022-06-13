@@ -173,13 +173,13 @@ namespace Vector
             return count.ToString();
         }
 
-        public int Length
-        {
-            get
-            {
-                return arr.Length;
-            }
-        }
+        //public int Length
+        //{
+        //    get
+        //    {
+        //        return arr.Length;
+        //    }
+        //}
 
         public void Bubble()
         {
@@ -333,7 +333,7 @@ namespace Vector
         private void Heapify(int n, int i)
         {
             int largest = i;
-            int l = 2 * i + 1; 
+            int l = 2 * i + 1;
             int r = 2 * i + 2;
 
             if (l < n && arr[l] > arr[largest])
@@ -363,9 +363,69 @@ namespace Vector
             return line;
         }
 
+        //public static Vector operator +(Vector a, Vector b)
+        //{
+        //    if (a.arr.Length > b.arr.Length)
+        //    {
+        //        (a, b) = (b, a);
+        //    }
+
+
+        //    Vector c = new Vector(b.arr.Length);
+
+        //    for (int i = 0; i < a.arr.Length; i++)
+        //    {
+        //        c.arr[i] = a.arr[i] + b.arr[i];
+        //    }
+
+        //    for (int i = a.arr.Length; i < b.arr.Length; i++)
+        //    {
+        //        c.arr[i] = b.arr[i];
+        //    }
+        //    return c;
+        //}
+
+        public static Vector operator +(Vector a, int b)
+        {
+            for (int i = 0; i < a.arr.Length; i++)
+                a.arr[i] += b;
+            return a;
+        }
+
+        public static bool operator >(Vector a, Vector b)
+        {
+            return a.arr.Length > b.arr.Length;
+        }
+
+        public static bool operator <(Vector a, Vector b)
+        {
+            return a.arr.Length < a.arr.Length;
+        }
+
+        //public static explicit operator int(Vector v)
+        //{
+        //    return v[0];
+        //}
+
+        public static implicit operator int(Vector v)
+        {
+            return v[0];
+        }
+
+        public int summa()
+        {
+            return arr.Sum();
+        }
+
+        public static int operator +(Vector a, Vector b)
+        {            
+            return a.summa() + b.summa();
+        }
+
         public override string ToString()
         {
             return string.Join(" ", arr);
         }
     }
 }
+
