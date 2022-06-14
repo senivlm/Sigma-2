@@ -4,7 +4,7 @@ using System.IO;
 namespace task6_1
 {
     internal class Program
-    {
+    {//fhjfjfjfhfhfhff
         static void Main(string[] args)
         {
             AppartmensService appartmensService = new AppartmensService(@"..\..\..\data.txt");
