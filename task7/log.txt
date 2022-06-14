@@ -1,0 +1,1 @@
+14.06.2022 17:30:33: invalid CategoryOfMeat or TypeOfMeat
