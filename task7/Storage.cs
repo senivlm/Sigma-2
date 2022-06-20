@@ -144,7 +144,7 @@ namespace Shop
         }
 
         public void OutputLogs()
-        {
+        {//В який файл пишемо? крам того файл мав би бути відкритий на доєднання
             OutputLogs(new FileReader());
         }
         public void OutputLogs(FileReader fileReader)
